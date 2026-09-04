@@ -1,0 +1,25 @@
+# Local build and release output
+release/*.zip
+__pycache__/
+*.pyc
+
+# Source-art workspace, rejected concepts, local references, and intermediate grades
+# The complete production atlases remain under mod/DragonFantasyCity/assets/.
+/assets/
+/artifacts/
+/tools/analyze_color.py
+/tools/build_atlas.py
+/tools/calibrate_color.py
+
+# Local game data and logs must never be committed
+*.log
+*.lovely
+saves/
+
+# Editor and OS files
+.vscode/
+.idea/
+.omx/
+Thumbs.db
+.DS_Store
+

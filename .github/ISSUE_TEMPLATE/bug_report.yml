@@ -1,0 +1,45 @@
+name: Bug report / 错误报告
+description: Report a gameplay bug, compatibility issue, crash, or softlock.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请尽量附上最新的 Lovely 日志。Please attach the newest Lovely log whenever possible.
+  - type: input
+    id: version
+    attributes:
+      label: Mod version / MOD 版本
+      placeholder: v0.1.3
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened? / 发生了什么？
+      description: Include the expected result and the actual result.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps / 复现步骤
+      placeholder: "1. ...\n2. ...\n3. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Setup / 环境
+      description: Balatro, Lovely, Steamodded, other mods, deck, Ante, and owned Jokers.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Lovely log / Lovely 日志
+      render: text
+    validations:
+      required: false
+

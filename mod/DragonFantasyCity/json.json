@@ -1,0 +1,15 @@
+{
+  "id": "dragon_fantasy_city",
+  "name": "龙与奇幻城",
+  "display_name": "龙与奇幻城",
+  "author": ["ZhuanZ1"],
+  "description": "46张以龙、奇幻角色与抽象符号为核心的小丑牌。",
+  "prefix": "DFC",
+  "main_file": "DragonFantasyCity.lua",
+  "priority": 0,
+  "badge_colour": "9b3f2f",
+  "badge_text_colour": "f4e2b8",
+  "version": "0.1.3",
+  "dependencies": ["Steamodded (>=1.0.0~BETA-1814a)"]
+}
+
