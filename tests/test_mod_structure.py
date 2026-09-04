@@ -124,7 +124,7 @@ assert len(re.findall(r"^\|\s*\d+\s*\|", guide_zh, re.MULTILINE)) == 46
 assert len(re.findall(r"^\|\s*\d+\s*\|", guide_en, re.MULTILINE)) == 46
 for public_doc in (readme, guide_zh, guide_en):
     assert "C:\\Users\\" not in public_doc
-for preview in ("full-roster.png", "legendary-showcase.png", "rare-showcase.png", "uncommon-showcase.png"):
+for preview in ("full-roster.jpg", "legendary-showcase.jpg", "rare-showcase.jpg", "uncommon-showcase.jpg"):
     assert (ROOT / "screenshots" / preview).is_file()
 
 print("OK: 46 unique Jokers, metadata, rank rules, and 1x/2x atlases verified")

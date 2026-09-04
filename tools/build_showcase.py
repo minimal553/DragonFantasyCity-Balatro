@@ -65,9 +65,9 @@ def full_roster(atlas: Image.Image, path: Path) -> None:
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
     with Image.open(ATLAS).convert("RGBA") as atlas_image:
-        montage(atlas_image, range(0, 4), 4, OUT / "legendary-showcase.png")
-        montage(atlas_image, range(4, 18), 7, OUT / "rare-showcase.png")
-        montage(atlas_image, range(18, 46), 7, OUT / "uncommon-showcase.png")
-        full_roster(atlas_image, OUT / "full-roster.png")
+        montage(atlas_image, range(0, 4), 4, OUT / "legendary-showcase.jpg")
+        montage(atlas_image, range(4, 18), 7, OUT / "rare-showcase.jpg")
+        montage(atlas_image, range(18, 46), 7, OUT / "uncommon-showcase.jpg")
+        full_roster(atlas_image, OUT / "full-roster.jpg")
     print("Built README showcase images in", OUT)
 

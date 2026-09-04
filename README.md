@@ -5,7 +5,7 @@
 > **每一张小丑牌都在改写一条规则；每一局，都是一座被命运重新建造的城。**<br>
 > **Every Joker rewrites a rule. Every run rebuilds the city.**
 
-![46 张原创小丑牌总览](screenshots/full-roster.png)
+![46 张原创小丑牌总览](screenshots/full-roster.jpg)
 
 [![Version](https://img.shields.io/badge/version-0.1.3-c03a2b)](https://github.com/minimal553/DragonFantasyCity-Balatro/releases)
 [![Jokers](https://img.shields.io/badge/original%20Jokers-46-d4a72c)](docs/CARD_GUIDE.en.md)
@@ -34,7 +34,7 @@
 
 ### 传奇：能定义整局的四条龙 / Legendary run-defining dragons
 
-![传奇牌展示](screenshots/legendary-showcase.png)
+![传奇牌展示](screenshots/legendary-showcase.jpg)
 
 - **红龙史矛革**把每一笔花费都炼成永久倍率。
 - **黑毒龙阿萨比斯**把毁牌数量炼成全体计分牌的永久重触发。
@@ -43,13 +43,13 @@
 
 ### 稀有：改变路线的强规则 / Rare rule-benders
 
-![稀有牌展示](screenshots/rare-showcase.png)
+![稀有牌展示](screenshots/rare-showcase.jpg)
 
 探索牌型、永久负片、随机强化、毁牌换星球、顺子多重触发、累积长城、双倍盲注与双倍资金……这些牌不是单纯“加筹码”，而是在要求你重新安排整局的节奏。
 
 ### 罕见：组合真正开始的地方 / Uncommon combo pieces
 
-![罕见牌展示](screenshots/uncommon-showcase.png)
+![罕见牌展示](screenshots/uncommon-showcase.jpg)
 
 28 张罕见牌覆盖弃牌、商店、留手、点数差、花色、消耗牌、新增牌和最后一手等触发窗口。单张容易理解，组合起来却能产生完全不同的构筑路径。
 
